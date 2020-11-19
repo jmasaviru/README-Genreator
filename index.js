@@ -7,10 +7,10 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
     {
         type: "input",
-        message: "What is the title of this Project?"
+        message: "What is the title of this Project?",
         name: "title"
     },
-    {{
+    {
         type: "input",
         message: "Please provide a description of this Project: ",
         name: "description"
@@ -22,7 +22,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "How would you like your project to be used? ",
+        message: "Provide instructions on how to use your project:",
         name: "usage"
     },
     {
@@ -40,9 +40,14 @@ const questions = [
         message: "Please select a license for this project:",
         choices: [
             "Apache",
+            "Boost Software License 1.0",
             "MIT",
             "ISC",
             "GNU GPLv3",
+            "GNU AGPLv3",
+            "GNU LGPLv3",
+            "Mozilla Public License 2.0",
+            "The Unlicense",
         ],
         name: "license"
     },
@@ -62,11 +67,18 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, err =>{
+        if (err) {
+        return console.log(err);
+      }
+
+      console.log("Success! Your README.md file has been generated")
+    });
 }
 
 // function to initialize program
 function init() {
-
+    inquirer.prompt(questions).then(userdata => writeToFile(readme, userdata));
 }
 
 // function call to initialize program
