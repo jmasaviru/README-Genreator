@@ -6,12 +6,12 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Licence Badge
-  ![License badge](https://img.shields.io/badge/license-${data.license}-green)
+  ![License badge](https://img.shields.io/badge/License-${data}-green.svg)
   
   ## Table of Contents
   1. [Installation](#installation)
   2. [Usage](#usage)
-  3. [Licence](#licence)
+  3. [License](#license)
   4. [Tests](#testing)
   5. [Contribution](#contribution)
   6. [Questions](#questions)
