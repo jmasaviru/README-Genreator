@@ -20,7 +20,7 @@
   ## Usage
   The user opens their terminal and navigates to the desired file then runs 'node.js' and answers the series of questions that follow about the application repository. Upon completion of the questions a quality, professional README.md is generated with all the required attributes. 
 
-  ![Generated README.md Screenshot](./Assets/README-Genreator/ReadmeGenerator-screenshot.png)
+  ![Generated README.md Screenshot](./Assets/ReadmeGenerator-screenshot.png)
 
   >The table of contents above is created and populated with the corresponding user input. 
 
