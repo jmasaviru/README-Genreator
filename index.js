@@ -49,7 +49,7 @@ const questions = [
             "Mozilla_Public_License_2.0",
             "The_Unlicense",
         ],
-        name: "license"
+        name: "License"
     },
     {
         type: "input",
