@@ -22,7 +22,7 @@
 
   ## License
   MIT License
-  *  ![License badge](https://img.shields.io/badge/license-MIT License-green)
+  *  ![License badge](https://img.shields.io/badge/license-MIT-green)
  
   ## Tests
   N/A
