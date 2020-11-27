@@ -1,26 +1,26 @@
 # README Generator
 
   ## Description
-  A command-line application that dynamically generates a professional README.md from a user's input using the inquirer package.
+  A command-line application that dynamically generates a professional README.md.
 
   ## Licence Badge
-  ![License badge](https://img.shields.io/badge/license-MIT License-green)
+  ![License badge](https://img.shields.io/badge/License-MIT License-green)
   
   ## Table of Contents
   1. [Installation](#installation)
   2. [Usage](#usage)
-  3. [Licence](#licence)
+  3. [License](#license)
   4. [Tests](#testing)
   5. [Contribution](#contribution)
   6. [Questions](#questions)
 
   ## Installation
-  node & npm install
+  Node & npm install.
 
   ## Usage
   The user opens their terminal and navigates to the desired file then runs 'node.js' and answers the series of questions that follow.
 
-  ## Licence
+  ## License
   MIT License
   *  ![License badge](https://img.shields.io/badge/license-MIT License-green)
  
