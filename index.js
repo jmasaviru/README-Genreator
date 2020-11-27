@@ -39,9 +39,9 @@ const questions = [
         type: "checkbox",
         message: "Please select a license for this project:",
         choices: [
-            "Apache",
+            "Apache License 2.0",
             "Boost Software License 1.0",
-            "MIT",
+            "MIT License",
             "ISC",
             "GNU GPLv3",
             "GNU AGPLv3",
@@ -67,12 +67,13 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, err =>{
+    fs.writeFile(fileName, generateMarkdown(data), function (err) {
         if (err) {
         return console.log(err);
       }
-
-      console.log("Success! Your README.md file has been generated")
+      else{
+        return console.log("Success! Your README.md file has been generated")
+      }
     });
 }
 
