@@ -1,26 +1,35 @@
-# README-Genreator
-A command-line application that dynamically generates a professional README.md from a user's input using the Inquirer package. The application will be invoked with the following command:
-node index.js
+# README Generator
 
-### Application Sections
-The generated README includes the following sections:
+  ## Description
+  A command-line application that dynamically generates a professional README.md from a user's input using the inquirer package.
 
-- Title 
-- Description
-- Table of Contents
-- Installation
-- Usage
-- License
-- Contributing]
-- Tests
-- Questions
+  ## Licence Badge
+  ![License badge](https://img.shields.io/badge/license-MIT License-green)
+  
+  ## Table of Contents
+  1. [Installation](#installation)
+  2. [Usage](#usage)
+  3. [Licence](#licence)
+  4. [Tests](#testing)
+  5. [Contribution](#contribution)
+  6. [Questions](#questions)
 
+  ## Installation
+  node & npm install
 
-The generated README includes 1 badge that's specific to the repository.
+  ## Usage
+  The user opens their terminal and navigates to the desired file then runs 'node.js' and answers the series of questions that follow.
 
-Video showing us that you got the app working with no bugs:
+  ## Licence
+  MIT License
+  *  ![License badge](https://img.shields.io/badge/license-MIT License-green)
+ 
+  ## Tests
+  N/A
 
-Screenshots:
-
-
-
+  ## Contribution
+  James Masaviru
+  
+  ## Questions
+  * If you have questions, email me at: jmasaviru@gmail.com,
+  * GitHub Profile link: https://github.com/jmasaviru
