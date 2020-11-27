@@ -1,10 +1,10 @@
 # README Generator
 
   ## Description
-  A command-line application that dynamically generates a professional README.md.
+  A command-line application that dynamically generates a professional README.md
 
   ## Licence Badge
-  ![License badge](https://img.shields.io/badge/License-MIT License-green)
+  ![License badge](https://img.shields.io/badge/License-MIT-green)
   
   ## Table of Contents
   1. [Installation](#installation)
@@ -15,14 +15,14 @@
   6. [Questions](#questions)
 
   ## Installation
-  Node & npm install.
+  Node & npm install. 
 
   ## Usage
   The user opens their terminal and navigates to the desired file then runs 'node.js' and answers the series of questions that follow.
 
   ## License
-  MIT License
-  *  ![License badge](https://img.shields.io/badge/license-MIT-green)
+  MIT
+  *  ![License badge](https://img.shields.io/badge/License-MIT-green)
  
   ## Tests
   N/A
